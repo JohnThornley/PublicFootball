@@ -33,7 +33,7 @@ using BivariatePoisson
 
 DP = 3
 CORRELATIONS = 0.12:0.001:0.15 # 0.0:0.01:0.95
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 # ==============================================================================
 # Main program
