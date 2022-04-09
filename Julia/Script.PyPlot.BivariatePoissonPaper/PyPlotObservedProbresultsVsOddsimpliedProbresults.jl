@@ -15,7 +15,7 @@ using Printf
 # Fixed values for this plot
 # ==============================================================================
 
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 plt.rc("legend", fontsize=6)
 

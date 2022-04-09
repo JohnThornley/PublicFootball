@@ -17,7 +17,7 @@ using Statistics
 # Fixed values for this plot
 # ==============================================================================
 
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 BAR_WIDTH = 0.005
 

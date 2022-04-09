@@ -24,7 +24,7 @@ using PlotUtil
 # Fixed values for this plot
 # ==============================================================================
 
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 CORRELATIONS = [0.0, 0.15, 0.3]
 MAX_GOALS = 3  # Goals above 3 are grouped as >3

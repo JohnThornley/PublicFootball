@@ -19,7 +19,7 @@ using PlotUtil
 # Fixed values for this plot
 # ==============================================================================
 
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 MAX_GOALS = 5
 MAX_Y = 20

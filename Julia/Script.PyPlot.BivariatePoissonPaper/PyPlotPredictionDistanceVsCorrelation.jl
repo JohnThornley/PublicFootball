@@ -22,7 +22,7 @@ using PlotUtil
 # Fixed values for this plot
 # ==============================================================================
 
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 MAX_Y = 2.0
 

@@ -18,7 +18,7 @@ using HypothesisTests  # See: https://juliastats.org/HypothesisTests.jl/stable/
 # Fixed values for this plot
 # ==============================================================================
 
-db_conn = ODBC.Connection("football", "football", "football2015")
+db_conn = ODBC.Connection("football", "football", nothing)
 
 CONF_LEVEL = 0.99
 
