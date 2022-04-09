@@ -1,8 +1,8 @@
 module PlotUtil
 # ==============================================================================
+# PlotUtil
 #
-# Modeling two football teams, A and B, with goal scoring distributed as:
-# bivariate_poisson.pmf(goalsA, goalsB; lambdaA, lambdaB, lambdaX).
+# Utility functions related to bivariate Poisson football plotting.
 # ==============================================================================
 
 using DataFrames  # See: https://dataframes.juliadata.org/stable/
@@ -22,7 +22,7 @@ export observedscorefreq, predictedscorefreq
 export plotscoreheatmap!, plotprobscoreheatmap, plotdiffscoreheatmap
 
 # ==============================================================================
-# Util functions
+# Formatted print functions
 # ==============================================================================
 
 function prettyprint(a::AbstractMatrix{Float64})::Nothing
@@ -39,7 +39,7 @@ function prettyprint(a::AbstractMatrix{Float64})::Nothing
 end
 
 # ==============================================================================
-# Read functions
+# Football database read functions
 # ==============================================================================
 
 function readcorrelations(db_conn::ODBC.Connection)::Vector{Float64}
@@ -126,7 +126,7 @@ function predictedscorefreq(homemean::Vector{Float64}, awaymean::Vector{Float64}
 end
 
 # ==============================================================================
-# Plot functions
+# Plot functions (PyPlot and Plots versions)
 # ==============================================================================
 
 function plotscoreheatmap!(ax, data::OffsetArray{Float64}, corr::Float64; title::Union{String, Nothing}, ylabel::Bool, clim::Tuple{Float64, Float64}, cmap)::Nothing

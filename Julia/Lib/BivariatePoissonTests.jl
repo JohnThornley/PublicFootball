@@ -1,6 +1,8 @@
 module BivariatePoissonTests
 # ==============================================================================
 # BivariatePoissonTests
+#
+# Unit tests for functions exported by BivariatePoisson.jl.
 # ==============================================================================
 
 using Test

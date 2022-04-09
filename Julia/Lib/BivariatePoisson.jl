@@ -4,6 +4,15 @@ module BivariatePoisson
 #
 # Probability functions for two random variables, Y1 and Y2,
 # distributed with a joint bivariate Poisson distribution.
+#
+# The canonical definition is in terms of the (lambda1, lambda2, lambda3)
+# parameterization. However, for our purpose, the useful definition is in terms
+# of the (mean1, mean2, corr12) paramaterization.
+#
+# The probability distribution functions probscore_from_lambdas(),
+# probscore_from_means(), probresults_from_lambdas, and probresults_from_means()
+# are computed directly.  The inverse functions lambdas_from_probresults() and
+# means_from_probresults() are computed numerically using NLsolve.
 # ==============================================================================
 
 export clear_caches!

@@ -1,8 +1,11 @@
 module PyPlotSetup
+# ==============================================================================
+# PyPlotSetup
+#
+# Setup functions to ensure common formatting of PyPlot plots.
+# ==============================================================================
 
 export setuppyplot2d!, setuppyplot3d!
-
-# ==============================================================================
 
 function setuppyplotcommon!(plt::Module)::Nothing
     plt.rc("figure", dpi=600)
