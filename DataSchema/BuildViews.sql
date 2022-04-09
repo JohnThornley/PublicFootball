@@ -3,8 +3,8 @@
 --
 -- Create Microsoft SQL Server views for football goal scoring analysis.
 --
--- * OddsImpliedProbs: Matches enriched with best odds and odds-implied result probabilities.
--- * MinuteResult: Match states at every minute interval.
+-- * OddsImpliedProbs: Matches enriched with best odds and odds-implied result probabilities
+-- * MinuteResult: Match states at every minute interval
 --------------------------------------------------------------------------------
 
 CREATE VIEW OddsImpliedProbs AS
