@@ -80,10 +80,10 @@ SELECT
   OddsImpliedProbs.AwayTeamName,
   CAST(ProbsImpliedMeans.HomeGoalsMean AS FLOAT) AS PredictedHomeGoalRate,
   CAST(ProbsImpliedMeans.AwayGoalsMean AS FLOAT) AS PredictedAwayGoalRate,
-   -- EventType: 1 = Goal, 2 = RedCard, 3 = Halftime, 4 = Fulltime
-   -- Side: 1 = Home, 2 = Away
   OddsImpliedProbs.FulltimeHomeScore,
   OddsImpliedProbs.FulltimeAwayScore,
+   -- EventType: 1 = Goal, 2 = RedCard, 3 = Halftime, 4 = Fulltime
+   -- Side: 1 = Home, 2 = Away
   (select Count(1) from Event as E where E.MatchId = OddsImpliedProbs.MatchId and E.DatasourceId = Soccerbase.DatasourceId and E.EventType = 1 and E.Side = 1) AS FinalHomeGoals,
   (select Count(1) from Event as E where E.MatchId = OddsImpliedProbs.MatchId and E.DatasourceId = Soccerbase.DatasourceId and E.EventType = 1 and E.Side = 2) AS FinalAwayGoals,
   (select Count(1) from Event as E where E.MatchId = OddsImpliedProbs.MatchId and E.DatasourceId = Soccerbase.DatasourceId and E.EventType = 2 and E.Side = 1) AS FinalHomeRedCards,
