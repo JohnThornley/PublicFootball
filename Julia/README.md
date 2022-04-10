@@ -20,7 +20,6 @@ Also, a script and plot from some initial experimentation (not related to footba
 
 ### Runnability:
 
-Please contact me for instructions on database setup and the data and code (Scala) for loading.
 The following scripts are runnable without the database:
 
 - Lib\\BivariatePoisson.jl (lots of unit tests)
