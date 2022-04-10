@@ -1,3 +1,3 @@
 # Script.PyPlot.BivariatePoissonPaper
 
-Julia scripts for plotting (via PyPlot) bivariate Poisson and football goal scoring analysis.
+Julia scripts for creating analysis and plots (via PyPlot) used in bivariate Poisson paper.
