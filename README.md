@@ -1,6 +1,7 @@
 # PublicFootball
 
-Julia code and SQL data schema related to football goal-scoring analysis - for interested parties to browse.
+Julia code and SQL data schema related to football goal-scoring analysis.
+For interested parties to browse.
 Pulled out of a long-term multi-language (SQL, Scala, R, Julia, LaTeX) personal project in order to
 present the Julia code in a focused and hopefully readable context.
 
