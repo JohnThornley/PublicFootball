@@ -16,7 +16,7 @@ Also, a script and plot from some initial experimentation (not related to footba
 - **Plots.NotPaper** -- plots produced by scripts in **Script.Plots.BivariatePoissonPaper**
 
 - **Script.PyPlot.MultithreadedPerformance** - scripts for experimenting with multithreaded execution speedups
-- **PyPlot.MultithreadedPerformance** - plots produced by scripts in **Script.MultithreadedPerformance**
+- **PyPlot.MultithreadedPerformance** - plots produced by scripts in **Script.PyPlot.MultithreadedPerformance**
 
 ### Runnability:
 
