@@ -1,6 +1,6 @@
 # Julia
 
-Julia code for bivariate Poission model and data analysis and the resulting plots.
+Julia code for bivariate Poisson model and data analysis and the resulting plots.
 Also, a script and plot from some initial experimentation (not related to football analysis) with multithreaded performance speedups.
 
 ### Folders:
