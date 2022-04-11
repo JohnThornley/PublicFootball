@@ -2,6 +2,7 @@
 
 Julia code for bivariate Poisson model and data analysis and the resulting plots.
 Also, a script and plot from some initial experimentation (not related to football analysis) with multithreaded performance speedups.
+The crux of the code is **Lib\\BivariatePoisson.jl**.
 
 ### Folders:
 
