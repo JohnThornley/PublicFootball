@@ -23,7 +23,7 @@ The crux of the code is **Lib\\BivariatePoisson.jl**.
 
 The following scripts are runnable without the database:
 
-- Lib\\BivariatePoisson.jl (lots of unit tests)
+- Lib\\BivariatePoissonTests.jl (lots of unit tests)
 - Lib\\UtilTests.jl
 
 - Script.PyPlot.BivariatePoissonPaper\\PyPlotProbresultsFromMeans.jl
